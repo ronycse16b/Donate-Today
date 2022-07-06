@@ -41,7 +41,7 @@
     padding: 0px 100px;
     color: white;
     padding-bottom: 50px;
-  
+
     font-size: 15px;
 }
 
@@ -72,7 +72,7 @@
 
 .donate-heading p {
     margin: 10px 0px;
-  
+
     padding-bottom: 70px;
 }
 
@@ -114,7 +114,7 @@
 }
 
 .other-amount-taka {
-   margin-top: 80PX;
+    margin-top: 80PX;
     padding-bottom: 50px;
 }
 
@@ -123,7 +123,7 @@
 
     font-size: 30px;
     outline: none;
- border: none;
+    border: none;
     padding-bottom: 10px;
     border-bottom: 2px solid rgb(231, 231, 231);
 
@@ -169,8 +169,9 @@ input::placeholder {
     box-shadow: 0px 0px 2px;
 
 }
-.donate-card:hover{
-transform: scale(1.1);
+
+.donate-card:hover {
+    transform: scale(1.1);
     transition: 0.7s;
     cursor: pointer;
 }
@@ -245,76 +246,83 @@ transform: scale(1.1);
     padding: 20px 500px;
 }
 
-.top-five-charitable{
+.top-five-charitable {
     padding-top: 90px;
-  background-color: #ebebeb;
+    background-color: #ebebeb;
     padding-bottom: 150px;
 
 }
 
 
 
-.top-five-charitable h1{
+.top-five-charitable h1 {
     padding-top: 14px;
- text-align: center;
- font-size: 40px;
- padding-bottom: 50px;
- 
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 50px;
+
 
 
 }
-.top-five-parent{
-justify-content: center;
+
+.top-five-parent {
+    justify-content: center;
     display: flex;
 
 
 
 }
-.top-five-person-card{
+
+.top-five-person-card {
     width: 260px;
     height: 350px;
- box-shadow: 0px 0px 2px;
-    margin: 10px ;
+    box-shadow: 0px 0px 2px;
+    margin: 10px;
     border-radius: 10px;
     cursor: pointer;
     background-color: #ffffffa4;
-    
+
 }
 
-.top-five-person-card:hover{
+.top-five-person-card:hover {
     transform: scale(1.1);
-   box-shadow: 0px 01px 5px #FF5959;
-   transition: 0.7s;
-  
-  
+    box-shadow: 0px 01px 5px #FF5959;
+    transition: 0.7s;
+
+
 }
-.top-five-person-card img:hover{
-  
+
+.top-five-person-card img:hover {
+
     cursor: pointer;
     transition: 00.7s;
     background-color: #940909;
 
 
 }
-.top-five-person-card img{
-    width:150px;
+
+.top-five-person-card img {
+    width: 150px;
     height: 150px;
     border-radius: 50%;
-margin:20px 50px;
+    margin: 20px 50px;
     border: 4px solid orange;
-    
+
 
 }
-.top-five-person-card p{
-font-size: 10px;
-text-align: justify;
-padding: 10px 30px;
+
+.top-five-person-card p {
+    font-size: 10px;
+    text-align: justify;
+    padding: 10px 30px;
 }
-.top-five-person-card h4{
+
+.top-five-person-card h4 {
     text-align: center;
     padding-bottom: 2px;
 }
-.company-highlight{
+
+.company-highlight {
     color: rgb(3, 56, 172);
     font-weight: bold;
     font-size: 10px;
@@ -339,7 +347,7 @@ padding: 10px 30px;
     margin-top: 80px;
     background-color: #d9d9d9;
     border-radius: 5px;
-    
+
 
 }
 
@@ -348,14 +356,16 @@ padding: 10px 30px;
     height: 40px;
     width: 90px;
     background-color: #FF5959;
+    color: white;
     outline: none;
     border: none;
-border-top-right-radius: 5px;
-border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
 
 
 }
-.contact-form input[type="submit"]:hover{
+
+.contact-form input[type="submit"]:hover {
     cursor: pointer;
     background-color: #940909;
     color: white;
@@ -363,25 +373,42 @@ border-bottom-right-radius: 5px;
 }
 
 
-.footer{
+.footer {
     width: 100%;
-    height: 400px;
+    height: 500px;
     background-color: #282d32;
 }
-.footer-parent{
-padding:150px 40px;
-display: flex;
+
+.footer-parent {
+    padding: 150px 40px;
+    display: flex;
 
 
-justify-content: center;
-color: white;
+    justify-content: center;
+    color: white;
 
 }
-.footer-child{
-margin: 0px 120px;
-border-left: 2px solid white;
-padding: 0px 40px;
+
+.footer-child {
+    margin: 0px 120px;
+    border-left: 2px solid white;
+    padding: 0px 40px;
 }
-.footer-child h1{
-padding-bottom: 30px
+
+.footer-child h1 {
+    padding-bottom: 30px
+}
+
+.copyright {
+    width: 100%;
+    height: 40px;
+    background-color: #282d32;
+
+
+}
+
+.copyright h2 {
+    text-align: center;
+    font-size: 13px;
+    color: white;
 }
