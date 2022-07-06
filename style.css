@@ -1,0 +1,387 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.top-banner {
+    justify-content: center;
+}
+
+.banner-image {
+    background-image: linear-gradient(rgba(8, 0, 0, 0.274), rgba(12, 1, 1, 0.884)), url(./images/donation9.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.banner-details {
+
+    width: 826px;
+    height: 320px;
+    text-align: center;
+    position: absolute;
+    left: 500px;
+    top: 27%;
+}
+
+.banner-details h1 {
+    font-size: 55px;
+    font-weight: bold;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.banner-details p {
+    padding: 0px 100px;
+    color: white;
+    padding-bottom: 50px;
+  
+    font-size: 15px;
+}
+
+.banner-button {
+    padding: 18px 40px;
+    background-color: #FF5959;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+.banner-button:hover {
+    background-color: #940909;
+    transition: 0.7s;
+}
+
+.donate_today {
+    margin-top: 160px;
+    text-align: center;
+}
+
+.donate-heading h1 {
+    font-size: 50px;
+    padding-bottom: 10px;
+
+
+}
+
+.donate-heading p {
+    margin: 10px 0px;
+  
+    padding-bottom: 70px;
+}
+
+.slogan {
+    color: orange;
+    padding-bottom: 5px;
+    font-size: 20px;
+
+}
+
+.donate-amount-card-parent {
+    justify-content: center;
+    display: flex;
+
+}
+
+.donate-amount-card {
+    background-color: #ececec;
+    padding: 70px 70px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+.donate-amount-card:hover {
+    background-color: #f1c6c6;
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+.donate-amount-card h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#secound-card-id {
+    background-color: #f1c6c6;
+    color: #FF5959;
+    border: 5px solid #FF5959;
+}
+
+.other-amount-taka {
+   margin-top: 80PX;
+    padding-bottom: 50px;
+}
+
+.other-amount-taka input {
+    width: 1300px;
+
+    font-size: 30px;
+    outline: none;
+ border: none;
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgb(231, 231, 231);
+
+}
+
+.other-amount-taka input,
+input::placeholder {
+    text-align: center;
+}
+
+.our_Donate_Plan {
+    margin-top: 100px;
+}
+
+.ourDonatePlan-heading {
+    text-align: center;
+}
+
+.ourDonatePlan-heading h1 {
+    font-size: 45px;
+
+}
+
+.ourDonatePlan-heading p {
+    margin: 20px 500px;
+    font-size: 17px;
+}
+
+.ourDonatePlan-card-parent {
+    display: flex;
+    margin: 30px 300px;
+
+}
+
+.donate-card {
+
+    width: 360px;
+    height: 252px;
+    margin: 0px 10px;
+    margin: 30px 20px;
+    padding: 50px 40px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px;
+
+}
+.donate-card:hover{
+transform: scale(1.1);
+    transition: 0.7s;
+    cursor: pointer;
+}
+
+#card-1 {
+    background-color: #eef5f6;
+}
+
+#card-2 {
+    background-color: #fff0f0;
+}
+
+#card-3 {
+    background-color: #fff4d6;
+}
+
+.donate-card h3 {
+    padding-bottom: 20px;
+}
+
+.donate-card img {
+    width: 100px;
+    padding-bottom: 20px;
+}
+
+.there-live-depend {
+    margin-top: 100px;
+}
+
+.live-depend-parent-div {
+    display: flex;
+    margin: 30px 300px;
+
+}
+
+.live-depend {
+    width: 50%;
+    padding: 10px 30px;
+
+
+}
+
+.live-depend h1 {
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+
+.live-depend p {
+    font-size: 17px;
+    padding-bottom: 30px;
+}
+
+.live-depend img {
+    padding: 10px 10px;
+    border: 1px solid white;
+    width: 100%;
+    box-shadow: 0px 0px 1px;
+}
+
+.getMyUpdate {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.getMyUpdate h1 {
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+
+.getMyUpdate p {
+    font-size: 17px;
+    padding: 20px 500px;
+}
+
+.top-five-charitable{
+    padding-top: 90px;
+  background-color: #ebebeb;
+    padding-bottom: 150px;
+
+}
+
+
+
+.top-five-charitable h1{
+    padding-top: 14px;
+ text-align: center;
+ font-size: 40px;
+ padding-bottom: 50px;
+ 
+
+
+}
+.top-five-parent{
+justify-content: center;
+    display: flex;
+
+
+
+}
+.top-five-person-card{
+    width: 260px;
+    height: 350px;
+ box-shadow: 0px 0px 2px;
+    margin: 10px ;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #ffffffa4;
+    
+}
+
+.top-five-person-card:hover{
+    transform: scale(1.1);
+   box-shadow: 0px 01px 5px #FF5959;
+   transition: 0.7s;
+  
+  
+}
+.top-five-person-card img:hover{
+  
+    cursor: pointer;
+    transition: 00.7s;
+    background-color: #940909;
+
+
+}
+.top-five-person-card img{
+    width:150px;
+    height: 150px;
+    border-radius: 50%;
+margin:20px 50px;
+    border: 4px solid orange;
+    
+
+}
+.top-five-person-card p{
+font-size: 10px;
+text-align: justify;
+padding: 10px 30px;
+}
+.top-five-person-card h4{
+    text-align: center;
+    padding-bottom: 2px;
+}
+.company-highlight{
+    color: rgb(3, 56, 172);
+    font-weight: bold;
+    font-size: 10px;
+}
+
+
+.contact-form {
+
+    height: 200px;
+    background-color: #fff4d6;
+    justify-content: center;
+    margin: 40px 500px;
+}
+
+
+.contact-form input[type="text"] {
+    width: 300px;
+    height: 40px;
+    padding-right: 50px;
+    outline: none;
+    border: none;
+    margin-top: 80px;
+    background-color: #d9d9d9;
+    border-radius: 5px;
+    
+
+}
+
+.contact-form input[type="submit"] {
+    margin-left: -50px;
+    height: 40px;
+    width: 90px;
+    background-color: #FF5959;
+    outline: none;
+    border: none;
+border-top-right-radius: 5px;
+border-bottom-right-radius: 5px;
+
+
+}
+.contact-form input[type="submit"]:hover{
+    cursor: pointer;
+    background-color: #940909;
+    color: white;
+    transition: 0.7s;
+}
+
+
+.footer{
+    width: 100%;
+    height: 400px;
+    background-color: #282d32;
+}
+.footer-parent{
+padding:150px 40px;
+display: flex;
+
+
+justify-content: center;
+color: white;
+
+}
+.footer-child{
+margin: 0px 120px;
+border-left: 2px solid white;
+padding: 0px 40px;
+}
+.footer-child h1{
+padding-bottom: 30px
+}
