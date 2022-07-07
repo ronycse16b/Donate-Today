@@ -7,17 +7,18 @@
 }
 
 .top-banner {
+
     justify-content: center;
 }
 
 .banner-image {
-    background-image: linear-gradient(rgba(8, 0, 0, 0.274), rgba(12, 1, 1, 0.884)), url(./images/donation9.jpg);
+    background-image: linear-gradient(rgba(8, 0, 0, 0.274), rgba(12, 1, 1, 0.884)), url(./images/donation13.jpg);
     width: 100%;
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-
+    position: relative;
 }
 
 .banner-details {
@@ -197,6 +198,37 @@ input::placeholder {
     padding-bottom: 20px;
 }
 
+
+.donation {
+    background-image: url(./images/donation9.jpg);
+    /* background-position: center; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 600px;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.donation-details {
+    position: absolute;
+    top: 40%;
+    left: 45%;
+}
+
+#donate-details {
+    color: rgb(255, 238, 4);
+    margin-left: -125px;
+    padding-bottom: 20px;
+    font-size: 40px;
+}
+
+#dontate-paragraph {
+    color: white;
+    margin-left: -195px;
+    padding-bottom: 30px;
+}
+
 .there-live-depend {
     margin-top: 100px;
 }
@@ -208,14 +240,18 @@ input::placeholder {
 }
 
 .live-depend {
-    width: 50%;
+    width: 30%;
     padding: 10px 30px;
 
 
 }
 
+.live-depend-map {
+    width: 70%;
+}
+
 .live-depend h1 {
-    font-size: 40px;
+    font-size: 30px;
     padding-bottom: 30px;
 }
 
@@ -224,12 +260,7 @@ input::placeholder {
     padding-bottom: 30px;
 }
 
-.live-depend img {
-    padding: 10px 10px;
-    border: 1px solid white;
-    width: 100%;
-    box-shadow: 0px 0px 1px;
-}
+
 
 .getMyUpdate {
     margin-top: 100px;
@@ -276,11 +307,10 @@ input::placeholder {
 .top-five-person-card {
     width: 260px;
     height: 350px;
-    box-shadow: 0px 0px 2px;
+
     margin: 10px;
-    border-radius: 10px;
     cursor: pointer;
-    background-color: #ffffffa4;
+    background-color: #ffffff;
 
 }
 
